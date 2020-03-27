@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student_feedback">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/feed_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/feed_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".delete_records"
+            android:label="@string/title_activity_delete_records"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".splash"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".front"
+            android:label="@string/title_activity_front"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".storage"
+            android:label="@string/title_activity_storage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
